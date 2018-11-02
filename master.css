@@ -1,0 +1,171 @@
+/* TABLE OF CONTENTS
+- SITEWIDE
+- index.php
+- menu.php
+*/
+
+
+/* SITEWIDE -------------------------------------------------- */
+:root {
+	--menuvox-color-purple: #311853; /* #F8F9F8/#FFFFFF on #311853 = all AAA | #311853/#FFFFFF on #F8F9F8 = all AAA */
+	--menuvox-color-dark-purple: #1b0e2e;
+	--menuvox-color-orange: #e36414; /* #F8F9F8/#FFFFFF on #e36414 = LG AA only | #e36414 on #F8F9F8/#FFFFFF = LG AA only */
+
+	--text-off-black: #2B2E40; /* #2B2E40 on #F8F9F8/#FFFFFF = all AAA |   */
+	--background-color-off-white: #F8F9F8;
+	--white: #FFFFFF;
+}
+
+body {
+	font-family: sans-serif;
+	padding: 10px;
+	line-height: 1em;
+	background-color: var(--white);
+	color: var(--text-off-black);
+}
+
+.color-white {
+	color: var(--white) !important;
+}
+
+.color-off-black {
+	color: var(--text-off-black) !important;
+}
+
+.color-purple {
+	color: var(--menuvox-color-purple) !important;
+}
+
+.color-orange {
+	color: var(--menuvox-color-orange) !important;
+}
+
+.background-color-off-black {
+	background-color: var(--text-off-black) !important;
+}
+
+.background-color-purple {
+	background-color: var(--menuvox-color-purple) !important;
+}
+
+.background-color-orange {
+	background-color: var(--menuvox-color-orange) !important;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.margin-auto {
+	margin: 0 auto;
+}
+
+.contain-to-width {
+	max-width: 400px;
+}
+
+.display-none {
+	display: none;
+}
+
+.btn {
+	margin: 10px;
+}
+
+.border-1-white {
+	border: 1px solid var(--white);
+}
+
+#style-div {
+	width: 90%;
+	max-width: 300px;
+	margin: 15px auto;
+	padding: 0px;
+}
+
+#style-div button {
+	margin: 0px;
+}
+
+
+/* index.php -------------------------------------------------- */
+.index-yes-no-row {
+	width: 90%;
+	max-width: 270px;
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+
+#index-yes-button,
+#index-no-button {
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+}
+
+#index-reset-tracking-div {
+	width: 100%;
+	max-width: 300px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+#index-reset-tracking-div button {
+	white-space: normal;
+	width: 90%;
+}
+
+#index-alert-div {
+	margin-top: 20px;
+}
+
+#index-tracking-p {
+	margin: 0px 0px 20px 0px;
+}
+
+
+/* menu.php -------------------------------------------------- */
+#menu-item-page {
+	max-width: 500px;
+	margin: 0px auto;
+}
+
+.menu-category-list {
+	margin: 0px auto;
+	padding: 0px;
+	list-style-type: none;
+	max-width: 250px;
+}
+
+.menu-category-list li {
+	margin: 15px 0px;
+	display: block;
+	border-radius: 5px;
+}
+
+.menu-category-list a {
+	text-decoration: none;
+	padding: 15px;
+}
+
+.menu-wide-link {
+	display: block;
+}
+
+#menu-item-page {
+	margin: 10px auto;
+	padding: 30px 10px 30px 10px;
+}
+
+#menu-item-page .row {
+	margin: 20px 0px 0px 0px;
+}
+
+#menu-item-back-to-category-menu {
+	width: auto !important;
+	margin: 0px !important;
+}
+
+.menu-item-image {
+	max-width: 200px;
+	margin: 10px;
+}
